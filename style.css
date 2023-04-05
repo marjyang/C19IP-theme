@@ -9,7 +9,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Version: 1.0.4
+Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: inspiro-blocks-child
@@ -1077,4 +1077,8 @@ textarea {
     .wpz-hide-mobile {
         display: none !important;
     }
+}
+
+.test-title {
+    color: pink !important;
 }
