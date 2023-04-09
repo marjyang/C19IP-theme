@@ -171,7 +171,7 @@ input[type="submit"]:hover,
 --------------------------------------------- */
 .wp-block-button.is-style-outline .wp-block-button__link {
     background-color: transparent;
-    border: 2px solid;
+    border: 5px solid;
     border-color: var(--wp--preset--color--lightgrey);
     color: var(--wp--preset--color--foreground);
 }
@@ -685,7 +685,7 @@ a.wpzoom-video-popup-block {
     padding: 0;
     position: relative;
     text-decoration: none;
-    text-transform: inherit
+    text-transform: inherit;
     transition: .3s ease all;
 }
 
@@ -1079,6 +1079,71 @@ textarea {
     }
 }
 
+/* CUSTOM STYLES */
+
+body{
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+
 .test-title {
-    color: pink !important;
+    color: #BE0059 !important;
+}
+
+/* ticker button */
+.wp-block-button.is-style-outline .wp-block-button__link {
+    background-color: transparent;
+    border: 4px solid !important;
+    border-color: #FACD58 !important;
+    color: var(--wp--preset--color--foreground);
+    border-radius: 8px;
+}
+
+.ticker-button:hover {
+    border: 5px #FACD58 !important;
+    background-color: #FACD58 !important;
+    color: #FACD58 !important;
+    border-radius: 8px;
+}
+
+.video-button{
+    background-color: #F2EDD1 !important;
+    border-radius: 8px;
+}
+
+.video-blurb{
+    bottom: -75px;
+}
+
+/* watch button */
+.wp-element-button{
+    background-color: transparent;
+    color: #613743;
+}
+
+.wp-block-button .wp-block-button__link{
+    background-color: transparent;
+    font-family: var(--wp--preset--font-family--inter);
+    font-weight: 700;
+
+}
+
+/* dive into the data button */
+.explore-data-button{
+    border-radius: 8px !important;
+    color:#BE0059 !important;
+    border: 5px #BE0059 !important;
+
+}
+
+/* projects button */
+.projects-button{
+    color: black !important;
+    background-color: #FACD58;
+    border-radius: 8px;
+}
+
+/* header */
+.header{
+    color: #F2C85B;
 }
