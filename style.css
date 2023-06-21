@@ -1,5 +1,5 @@
 /*
-Theme Name: Inspiro Blocks Child
+Theme Name: Inspiro Blocks Child 1
 Theme URI: https://www.wpzoom.com/themes/inspiro-blocks/
 Author: WPZOOM
 Author URI: https://www.wpzoom.com/
@@ -106,10 +106,10 @@ body > .is-root-container,
 .wp-block-group.alignfull,
 .wp-block-group.has-background,
 .wp-site-blocks {
-    padding-left: var(--wp--custom--spacing--outer);
-    padding-right: var(--wp--custom--spacing--outer);
-    /* padding-left: 0px !important;
-    padding-right: 0px !important; */
+    /* padding-left: var(--wp--custom--spacing--outer);
+    padding-right: var(--wp--custom--spacing--outer); */
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 
     
 }
@@ -1239,9 +1239,9 @@ iframe{
     color:#613743 !important;
 }
 
-/* .image-padding{
+.about-img{
     padding: 30px !important;
-} */
+}
 
 
 
