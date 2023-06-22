@@ -14,3 +14,9 @@ function my_theme_enqueue_styles() {
 		$theme->get( 'Version' ) // This only works if you have Version defined in the style header.
 	);
 }
+
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_scripts' );
+function enqueue_custom_scripts() {
+    wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/../C19IP-theme/js/index.js', array( 'jquery' ), '1.0.4', true );
+
+}

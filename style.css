@@ -1,5 +1,5 @@
 /*
-Theme Name: Inspiro Blocks Child
+Theme Name: Inspiro Blocks Child 1
 Theme URI: https://www.wpzoom.com/themes/inspiro-blocks/
 Author: WPZOOM
 Author URI: https://www.wpzoom.com/
@@ -106,10 +106,10 @@ body > .is-root-container,
 .wp-block-group.alignfull,
 .wp-block-group.has-background,
 .wp-site-blocks {
-    padding-left: var(--wp--custom--spacing--outer);
-    padding-right: var(--wp--custom--spacing--outer);
-    /* padding-left: 0px !important;
-    padding-right: 0px !important; */
+    /* padding-left: var(--wp--custom--spacing--outer);
+    padding-right: var(--wp--custom--spacing--outer); */
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 
     
 }
@@ -1159,3 +1159,92 @@ body{
 .header{
     color: #F2C85B;
 }
+
+iframe{
+    border: none;
+}
+
+.memorial-bio{
+    /* width: 60%; */
+    width: fit-content;
+}
+
+.memorial-div{
+    width: fit-content;
+    align-items: left;
+}
+
+/* .main-video{    
+    height: 100vh !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+
+} */
+
+/* .wp-block-video video{
+    width: 100%;
+    height: 100vh;
+} */
+
+.my-video {
+    /* position: fixed; */
+    min-width: 100%;
+    height: 100vh;
+    margin-right: 0 !important;
+  }
+
+.ticker-frame{
+    display: block;
+}
+
+.data-storytelling-carousel{
+    color: white;
+}
+
+/* ABOUT PAGE */
+
+.about-title{
+    width: 70%;
+    margin-right: 200px;
+}
+
+.about-position{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/* contact form */
+
+.wpforms-field-medium{
+    max-width: 100% !important;
+}
+
+.wpforms-field-label{
+    font-family: 'JetBrainsMono';
+}
+
+.wpforms-submit{
+    font-family: 'JetBrainsMono';
+
+}
+
+/* ticker page */
+.ticker-learn-more-button{
+    font-family: 'JetBrainsMono';
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.ticker-learn-more-button:hover{
+    color:#613743 !important;
+}
+
+/* .image-padding{
+    padding: 30px !important;
+} */
+
+
+
+
+
+
